@@ -4,12 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="797174d0-79ec-4aa3-bbc1-1d6329fb33bf" name="Changes" comment="?">
-      <change afterPath="$PROJECT_DIR$/src/day01/DataType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/TypeCasting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/Variable.java" afterDir="false" />
+    <list default="true" id="797174d0-79ec-4aa3-bbc1-1d6329fb33bf" name="Changes" comment="# 데이터 타입">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day02/ArrayBasic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day02/ArrayCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day02/ArrayDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day02/ArrayPop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day02/ArrayPush.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day02/ArrayQuiz01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day02/ArrayQuiz02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day02/RandomExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day02/ScannerPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day02/stdIO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01/TypeCasting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01/TypeCasting.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +62,9 @@
     &quot;repository&quot;: &quot;java-study202404&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/day01/RandomExample.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -76,10 +88,19 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.콘솔 글꼴",
+    "애플리케이션.ArrayBasic.executor": "Run",
+    "애플리케이션.ArrayCopy.executor": "Run",
+    "애플리케이션.ArrayDelete.executor": "Run",
+    "애플리케이션.ArrayPop.executor": "Run",
+    "애플리케이션.ArrayPush.executor": "Run",
+    "애플리케이션.ArrayQuiz01.executor": "Run",
     "애플리케이션.DataType.executor": "Run",
     "애플리케이션.Main.executor": "Run",
+    "애플리케이션.RandomExample.executor": "Run",
+    "애플리케이션.ScannerPractice.executor": "Run",
     "애플리케이션.TypeCasting.executor": "Run",
-    "애플리케이션.Variable.executor": "Run"
+    "애플리케이션.Variable.executor": "Run",
+    "애플리케이션.stdIO.executor": "Run"
   }
 }]]></component>
   <component name="RunManager">
@@ -129,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712280517398</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="# 데이터 타입">
+      <option name="closed" value="true" />
+      <created>1712309246226</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712309246226</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,6 +176,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="test commit" />
     <MESSAGE value="?" />
-    <option name="LAST_COMMIT_MESSAGE" value="?" />
+    <MESSAGE value="# 데이터 타입" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 데이터 타입" />
   </component>
 </project>
