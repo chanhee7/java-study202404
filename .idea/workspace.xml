@@ -4,16 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="797174d0-79ec-4aa3-bbc1-1d6329fb33bf" name="Changes" comment="# 배열 기초">
-      <change afterPath="$PROJECT_DIR$/src/day02/ArrayInsert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day02/ArrayQuiz03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day02/ArraySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day03/Matrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day03/MethodBasic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day03/MethodQuiz.java" afterDir="false" />
+    <list default="true" id="797174d0-79ec-4aa3-bbc1-1d6329fb33bf" name="Changes" comment="# 배열 .">
+      <change afterPath="$PROJECT_DIR$/src/day04/Dancer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day04/DancerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day04/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day04/DogMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day04/FieldAndLocal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day04/FieldMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day04/StringCompare.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day02/ArrayQuiz01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day02/ArrayQuiz01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day02/ArrayQuiz02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day02/ArrayQuiz02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day03/MethodQuiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day03/MethodQuiz.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,19 +92,36 @@
     "애플리케이션.ArrayQuiz01.executor": "Run",
     "애플리케이션.ArrayQuiz03.executor": "Run",
     "애플리케이션.ArraySearch.executor": "Run",
+    "애플리케이션.DancerMain.executor": "Debug",
     "애플리케이션.DataType.executor": "Run",
+    "애플리케이션.DogMain.executor": "Run",
+    "애플리케이션.FieldMain.executor": "Run",
     "애플리케이션.Main.executor": "Run",
     "애플리케이션.Matrix.executor": "Run",
     "애플리케이션.MethodBasic.executor": "Run",
     "애플리케이션.MethodQuiz.executor": "Run",
     "애플리케이션.RandomExample.executor": "Run",
     "애플리케이션.ScannerPractice.executor": "Run",
+    "애플리케이션.StringCompare.executor": "Run",
     "애플리케이션.TypeCasting.executor": "Run",
     "애플리케이션.Variable.executor": "Run",
     "애플리케이션.stdIO.executor": "Run"
   }
 }]]></component>
   <component name="RunManager">
+    <configuration name="DancerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day04.DancerMain" />
+      <module name="java-study202404" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="java-study202404" />
@@ -114,6 +131,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.DancerMain" />
         <item itemvalue="애플리케이션.Main" />
       </list>
     </recent_temporary>
@@ -167,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712567210801</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="# 배열 .">
+      <option name="closed" value="true" />
+      <created>1712650444388</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712650444388</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,6 +213,7 @@
     <MESSAGE value="?" />
     <MESSAGE value="# 데이터 타입" />
     <MESSAGE value="# 배열 기초" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 배열 기초" />
+    <MESSAGE value="# 배열 ." />
+    <option name="LAST_COMMIT_MESSAGE" value="# 배열 ." />
   </component>
 </project>
