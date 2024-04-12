@@ -52,5 +52,6 @@ public class ListMain {
 
         System.out.println("foods = " + foods.toString());
         System.out.println("userNames = " + userNames.toString());
+        System.out.println("flag = " + flag);
     }
 }
