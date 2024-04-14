@@ -50,17 +50,16 @@ public class TypeCasting {
         int r2 = (int) (s * o);
         System.out.println("r2 = " + r2);
 
-        // int이하의 사이즈를 가진 타입은 연산시 결과가 자동으로 int로 캐스팅됨
+        // int 보다 작은 사이즈를 가진 타입은 연산시 결과가 자동으로 int 로 캐스팅됨
         char b1 = 'A'; // 65
         char b2 = 'C'; // 67
 
         int r3 = b1 + b2;
-        System.out.println(b1 + b2);
+        System.out.println(b1 + b2); // 132 출력
 
         char cc = 'A';
         int plusNum = 3;
-        char r4 = (char) (cc + plusNum); // D
-        System.out.println("r4 =" + r4);
-
+        char r4 = (char) (cc + plusNum); // D를 출력하기 위해 작성
+        System.out.println("r4 =" + r4); // D 출력
     }
 }
