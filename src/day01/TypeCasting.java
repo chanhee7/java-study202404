@@ -12,6 +12,7 @@ public class TypeCasting {
 
         // c: 0 0000000 00000000 00000011 11101000
         int c = 1000; // 4
+        // byte d = c; // 1 (오류: 작은곳에서 큰곳 못감)
         // 명시적 형 변환
         // d: 1 1101000
         // 0010111
@@ -19,16 +20,17 @@ public class TypeCasting {
         // 0000001
         // 0011000  => 16 + 8 = 24
         byte d = (byte) c;   // 1
-        System.out.println("d = " + d);
+        System.out.println("d = " + d); // -24 출력
 
         int k = 50; // 4byte
         double j = k; // 8byte
-        System.out.println("j = " + j);
+        System.out.println("j = " + j); // 50.0 출력
 
         // 소수점 버려짐
         double m = 5.567;
+        // int n = m; // 오류
         int n = (int) m;
-        System.out.println("n = " + n);
+        System.out.println("n = " + n); // 5 출력
 
         // 암묵적 형변환 -> upcasting (promotion)
         // 명시적 형변환 -> downcasting

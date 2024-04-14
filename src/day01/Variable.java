@@ -7,10 +7,14 @@ public class Variable {
     public static void main(String[] args) {
 
         System.out.println(n4);
-        int score = 78; // 정수
+        int score = 78; // 정수 ( 소수점 없는 숫자만 가능)
         String userName = "홍길동"; // 문자열
+        // String = 222; // 오류발생 ( 스트링 숫자 못넣음)
 
-        int userN32Ame123;
+        // int 123userName; // 오류
+        int userName123; // 가능
+        int userN32Ame; // 가능
+
 
         // 변수의 스코프 - 블록레벨 스코프
         // 자바의 변수는 생성된 블록이 종료되면 메모리에서 사라짐
