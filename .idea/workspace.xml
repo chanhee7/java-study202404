@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="797174d0-79ec-4aa3-bbc1-1d6329fb33bf" name="Changes" comment="# 접근제한자, 캡슐화, 정보은닉">
-      <change afterPath="$PROJECT_DIR$/src/day07/inherit/quiz/ElectronicProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/inherit/quiz/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/inherit/quiz/Smartphone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/inherit/quiz/Television.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day07/inherit/연습문제.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/book/LibraryView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/book/LibraryView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +93,7 @@
     "애플리케이션.MethodQuiz.executor": "Run",
     "애플리케이션.PackageMain.executor": "Run",
     "애플리케이션.RandomExample.executor": "Run",
+    "애플리케이션.Run.executor": "Run",
     "애플리케이션.ScannerPractice.executor": "Run",
     "애플리케이션.StringCompare.executor": "Run",
     "애플리케이션.TypeCasting.executor": "Run",

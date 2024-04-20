@@ -4,9 +4,6 @@ import day05.StringList;
 
 import static util.SimpleInput.*;
 
-
-import static util.SimpleInput.*;
-
 // 역할: 도서관리 프로그램에서 입출력을 담당하는 객체
 public class LibraryView {
 
@@ -92,6 +89,7 @@ public class LibraryView {
         repository.user();
     }
 
+
     // 2. 전체 도서 정보를 출력
     private void displayAllBooks() {
         System.out.println("\n============= 전체 도서 목록 =============");
@@ -99,9 +97,10 @@ public class LibraryView {
 
         for (int i = 0; i < informationList.length; i++) {
             Book book = informationList[i];
-            System.out.printf("%d. ");
+            System.out.printf("%d. %s\n", i+1, book.info());
         }
     }
+
 
     // 3. 도서 제목으로 검색
     private void searchBooksByName() {
@@ -118,6 +117,7 @@ public class LibraryView {
             System.out.println("# 검색 결과가 없습니다.");
         }
     }
+
 
     // 4. 책 대여하기
     private void rentBook() {
