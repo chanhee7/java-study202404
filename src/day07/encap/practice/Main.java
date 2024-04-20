@@ -17,5 +17,15 @@ public class Main {
         PasswordManager pm = new PasswordManager("oldPassword123");
         boolean isChanged = pm.changePassword("oldPassword123", "newPassword123");
         System.out.println("Password changed: " + isChanged); // true
+
+
+        // Student 클래스 테스트
+        Student student = new Student();
+        student.setName("박영희");
+        student.setStudentId("S001");
+        student.setDepartment("Computer Science");
+        System.out.println("학생 이름: " + student.getName());
+        System.out.println("학번: " + student.getStudentId());
+        System.out.println("전공: " + student.getDepartment());
     }
 }
