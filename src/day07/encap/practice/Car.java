@@ -18,6 +18,7 @@ public class Car {
     }
 
     public void setYear(int year) {
+        // LocalDate.now() : 년도 최신화
         if (year < 1900 || year > LocalDate.now().getYear()) {
             System.out.println("유효하지 않은 연식입니다.");
             return;
