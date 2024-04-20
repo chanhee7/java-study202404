@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="797174d0-79ec-4aa3-bbc1-1d6329fb33bf" name="Changes" comment="# 회원관리 시스템 - 회원정보 객체 설계">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day07/encap/practice/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/encap/practice/BankAccount.java" afterDir="false" />
+    <list default="true" id="797174d0-79ec-4aa3-bbc1-1d6329fb33bf" name="Changes" comment="# 접근제한자, 캡슐화, 정보은닉">
       <change beforePath="$PROJECT_DIR$/src/day07/encap/practice/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/encap/practice/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day07/encap/practice/PasswordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/encap/practice/PasswordManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,14 +142,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712277946802</updated>
-    </task>
-    <task id="LOCAL-00053" summary="# 열거형">
-      <option name="closed" value="true" />
-      <created>1713579308156</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1713579308156</updated>
     </task>
     <task id="LOCAL-00054" summary="# final, 상수">
       <option name="closed" value="true" />
@@ -536,7 +527,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713579958173</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="# 접근제한자, 캡슐화, 정보은닉">
+      <option name="closed" value="true" />
+      <created>1713592834276</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1713592834277</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -567,12 +566,12 @@
     <MESSAGE value="# static, singleton" />
     <MESSAGE value="# 도서관리 프로그램 1" />
     <MESSAGE value="# 다형성 기초" />
-    <MESSAGE value="# 접근제한자, 캡슐화, 정보은닉" />
     <MESSAGE value="# 상속 기초" />
     <MESSAGE value="# 열거형" />
     <MESSAGE value="# final, 상수" />
     <MESSAGE value="# 객체의 타입캐스팅" />
     <MESSAGE value="# 회원관리 시스템 - 회원정보 객체 설계" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 회원관리 시스템 - 회원정보 객체 설계" />
+    <MESSAGE value="# 접근제한자, 캡슐화, 정보은닉" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 접근제한자, 캡슐화, 정보은닉" />
   </component>
 </project>
