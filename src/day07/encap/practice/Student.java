@@ -7,6 +7,7 @@ public class Student {
     private String department;
 
     public void setName(String name) {
+        // isEmpty(), equals("") : 비어있는
         if (name == null || name.isEmpty()) {
             System.out.println("유효하지 않은 이름입니다.");
             return;
