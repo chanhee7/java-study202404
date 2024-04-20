@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="797174d0-79ec-4aa3-bbc1-1d6329fb33bf" name="Changes" comment="# 접근제한자, 캡슐화, 정보은닉">
-      <change beforePath="$PROJECT_DIR$/src/day07/encap/practice/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/encap/practice/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day07/encap/practice/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/encap/practice/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day07/encap/practice/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/encap/practice/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,14 +147,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712277946802</updated>
-    </task>
-    <task id="LOCAL-00056" summary="# super, static">
-      <option name="closed" value="true" />
-      <created>1713579376962</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1713579376962</updated>
     </task>
     <task id="LOCAL-00057" summary="# static, singleton">
       <option name="closed" value="true" />
@@ -540,7 +532,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713593686314</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="# 접근제한자, 캡슐화, 정보은닉">
+      <option name="closed" value="true" />
+      <created>1713594146490</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1713594146490</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
