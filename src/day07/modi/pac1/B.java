@@ -29,7 +29,7 @@ public class B {
 //        c.y2 = 20;
 //        c.y3 = 30;
 
-        Dancer dancer = new Dancer();
-        dancer.dance();
+//        Dancer dancer = new Dancer();
+//        dancer.dance();
     }
 }
