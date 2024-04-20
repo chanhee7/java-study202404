@@ -27,5 +27,15 @@ public class Main {
         System.out.println("학생 이름: " + student.getName());
         System.out.println("학번: " + student.getStudentId());
         System.out.println("전공: " + student.getDepartment());
+
+
+        // Car 클래스 테스트
+        Car myCar = new Car();
+        myCar.setBrand("현대");
+        myCar.setModel("그랜져");
+        myCar.setYear(2020);
+        System.out.println("Car Brand: " + myCar.getBrand());
+        System.out.println("Car Model: " + myCar.getModel());
+        System.out.println("Car Year: " + myCar.getYear());
     }
 }
