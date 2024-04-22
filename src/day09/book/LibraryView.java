@@ -21,7 +21,15 @@ public class LibraryView {
     public void makeNewBookUser() {
         System.out.println("\n# 회원 정보를 입력해주세요.");
         String name = input("# 이름: ");
-        int age = Integer.parseInt(input("# 나이: "));
+        int age = 0;
+        while (true) {
+            try {
+                age = Integer.parseInt(input("# 나이: "));
+                break;
+            } catch (NumberFormatException e) {
+                System.out.println("나이를 숫자로 입력해주세요.");
+            }
+        }
         Gender gender = inputGender();
 
         // 입력된 데이터를 저장시켜야 함.

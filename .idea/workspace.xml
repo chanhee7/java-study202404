@@ -5,44 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="797174d0-79ec-4aa3-bbc1-1d6329fb33bf" name="Changes" comment="# final, 상수">
-      <change afterPath="$PROJECT_DIR$/src/day10/exception/InvalidLoginInputException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/exception/LoginUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/exception/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/exception/ThrowsExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/exception/TryExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/exception/TryExample2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/inter/Galaxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/inter/Iphone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/inter/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/inter/SmartPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/inter/animal/Aggressive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/inter/animal/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/inter/animal/BullDog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/inter/animal/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/inter/animal/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/inter/animal/Huntable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/inter/animal/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/inter/animal/Rabbit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/inter/animal/Shark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/inter/animal/Wild.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/inter/practice/AudioPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/inter/practice/ImageDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/inter/practice/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/inter/practice/MediaPlayable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/inter/practice/MediaPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/inter/practice/VideoPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/inter/practice/연습문제.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/sort/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/sort/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/sort/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day06/member/MemberView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/member/MemberView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day09/book/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/book/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day09/poly/car/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/poly/car/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day09/poly/car/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/poly/car/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day09/poly/car/Mustang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/poly/car/Mustang.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day09/poly/car/Sonata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/poly/car/Sonata.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day09/poly/car/Tusan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/poly/car/Tusan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/book/LibraryView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/book/LibraryView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,6 +105,7 @@
     "애플리케이션.PackageMain.executor": "Run",
     "애플리케이션.RandomExample.executor": "Run",
     "애플리케이션.Recursive.executor": "Run",
+    "애플리케이션.Run.executor": "Run",
     "애플리케이션.ScannerPractice.executor": "Run",
     "애플리케이션.SelectionSort.executor": "Run",
     "애플리케이션.StringCompare.executor": "Run",
