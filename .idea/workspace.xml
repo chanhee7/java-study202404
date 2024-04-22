@@ -4,9 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="797174d0-79ec-4aa3-bbc1-1d6329fb33bf" name="Changes" comment="# 접근제한자, 캡슐화, 정보은닉">
+    <list default="true" id="797174d0-79ec-4aa3-bbc1-1d6329fb33bf" name="Changes" comment="# final, 상수">
+      <change afterPath="$PROJECT_DIR$/src/day10/exception/InvalidLoginInputException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/exception/LoginUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/exception/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/exception/ThrowsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/exception/TryExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/exception/TryExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/inter/Galaxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/inter/Iphone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/inter/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/inter/SmartPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/inter/animal/Aggressive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/inter/animal/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/inter/animal/BullDog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/inter/animal/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/inter/animal/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/inter/animal/Huntable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/inter/animal/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/inter/animal/Rabbit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/inter/animal/Shark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/inter/animal/Wild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/inter/practice/AudioPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/inter/practice/ImageDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/inter/practice/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/inter/practice/MediaPlayable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/inter/practice/MediaPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/inter/practice/VideoPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/inter/practice/연습문제.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/sort/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/sort/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/sort/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day09/book/LibraryView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/book/LibraryView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day06/member/MemberView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/member/MemberView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/book/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/book/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/poly/car/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/poly/car/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/poly/car/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/poly/car/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/poly/car/Mustang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/poly/car/Mustang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/poly/car/Sonata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/poly/car/Sonata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/poly/car/Tusan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/poly/car/Tusan.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +52,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -34,19 +72,27 @@
     &quot;assignee&quot;: &quot;chanhee7&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="6b300dee-4f42-4dff-8d88-54be0450416f" />
-        <option name="url" value="https://github.com/chanhee7/java-study202404.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/chanhee7/java-study202404.git&quot;,
+    &quot;accountId&quot;: &quot;861fe45a-e909-46e1-9cdb-ba8d1ca0b67c&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;chanhee7&quot;,
+    &quot;repository&quot;: &quot;java-study202404&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/day01/RandomExample.java" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -61,17 +107,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.MethodQuiz.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/java-study202404",
+    "last_opened_file_path": "D:/js-study202403",
     "onboarding.tips.debug.path": "D:/develop/java-study202404/src/Main.java",
     "project.structure.last.edited": "SDK",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
     "애플리케이션.ArrayBasic.executor": "Run",
     "애플리케이션.ArrayCopy.executor": "Run",
@@ -82,10 +126,13 @@
     "애플리케이션.ArrayQuiz01.executor": "Run",
     "애플리케이션.ArrayQuiz03.executor": "Run",
     "애플리케이션.ArraySearch.executor": "Run",
+    "애플리케이션.BubbleSort.executor": "Run",
     "애플리케이션.DancerMain.executor": "Run",
     "애플리케이션.DataType.executor": "Run",
+    "애플리케이션.Dd.executor": "Run",
     "애플리케이션.DogMain.executor": "Run",
     "애플리케이션.FieldMain.executor": "Run",
+    "애플리케이션.InsertionSort.executor": "Run",
     "애플리케이션.ListMain.executor": "Run",
     "애플리케이션.Main.executor": "Run",
     "애플리케이션.Matrix.executor": "Run",
@@ -93,23 +140,43 @@
     "애플리케이션.MethodQuiz.executor": "Run",
     "애플리케이션.PackageMain.executor": "Run",
     "애플리케이션.RandomExample.executor": "Run",
-    "애플리케이션.Run.executor": "Run",
+    "애플리케이션.Recursive.executor": "Run",
     "애플리케이션.ScannerPractice.executor": "Run",
+    "애플리케이션.SelectionSort.executor": "Run",
     "애플리케이션.StringCompare.executor": "Run",
+    "애플리케이션.Test.executor": "Run",
+    "애플리케이션.TryExample1.executor": "Run",
+    "애플리케이션.TryExample2.executor": "Run",
     "애플리케이션.TypeCasting.executor": "Run",
     "애플리케이션.Variable.executor": "Run",
     "애플리케이션.day05.player.Main.executor": "Run",
-    "애플리케이션.day07.encap.Main.executor": "Run",
-    "애플리케이션.day07.encap.practice.Main.executor": "Run",
-    "애플리케이션.day07.inherit.Main.executor": "Run",
-    "애플리케이션.day07.inherit.quiz.Main.executor": "Run",
-    "애플리케이션.day07.player.Main.executor": "Run",
+    "애플리케이션.day06.member.Main.executor": "Run",
+    "애플리케이션.day08.enum_.Main.executor": "Run",
+    "애플리케이션.day08.enum_.quiz1.Main.executor": "Run",
+    "애플리케이션.day08.final_.quiz1.Main.executor": "Run",
+    "애플리케이션.day08.gisa.Main.executor": "Run",
+    "애플리케이션.day08.quiz2.Main.executor": "Run",
+    "애플리케이션.day08.singleton.Main.executor": "Run",
+    "애플리케이션.day08.static_.Main.executor": "Run",
+    "애플리케이션.day08.super_.Main.executor": "Run",
+    "애플리케이션.day10.exception.Main.executor": "Run",
+    "애플리케이션.day10.inter.practice.Main.executor": "Run",
+    "애플리케이션.day10.practice.Main.executor": "Run",
     "애플리케이션.stdIO.executor": "Run"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="day08.quiz2" />
+      <recent name="day08.enum_.quiz1" />
+      <recent name="day08.quiz1.Department" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\java-study202404\src\day07\encap\practice" />
+      <recent name="D:\develop\java-study202404\src\day10" />
+      <recent name="D:\develop\java-study202404\src\day10\practice" />
+      <recent name="D:\develop\java-study202404\src\day07\inherit\quiz" />
+      <recent name="D:\develop\java-study202404\src\day07\encap\practice" />
+      <recent name="D:\develop\java-study202404\src\day08\final_\quiz1" />
     </key>
   </component>
   <component name="RunManager">
@@ -133,18 +200,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="day06.member.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day06.member.Main" />
+      <module name="java-study202404" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day06.member.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day08.singleton.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day08.singleton.Main" />
+      <module name="java-study202404" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day08.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day08.super_.super_.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day08.super_.super_.Main" />
+      <module name="java-study202404" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day08.super_.super_.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.day08.singleton.Main" />
+        <item itemvalue="애플리케이션.day08.super_.super_.Main" />
+        <item itemvalue="애플리케이션.day06.member.Main" />
+        <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.DancerMain" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-11.0.22-corretto-11.0.22-4caba194b151-868cef46" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -155,399 +258,399 @@
       <option name="presentableId" value="Default" />
       <updated>1712277946802</updated>
     </task>
-    <task id="LOCAL-00062" summary="# 다형성 기초">
+    <task id="LOCAL-00009" summary="# 패키지">
       <option name="closed" value="true" />
-      <created>1713579475548</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
+      <created>1712887815638</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1713579475548</updated>
+      <updated>1712887815638</updated>
     </task>
-    <task id="LOCAL-00063" summary="# 객체의 타입캐스팅">
+    <task id="LOCAL-00010" summary="# this">
       <option name="closed" value="true" />
-      <created>1713579491965</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
+      <created>1712914189304</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1713579491965</updated>
+      <updated>1712914189304</updated>
     </task>
-    <task id="LOCAL-00064" summary="# 다형성 기초">
+    <task id="LOCAL-00011" summary="# 회원 관리 시스템">
       <option name="closed" value="true" />
-      <created>1713579501791</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
+      <created>1713236526193</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
       <option name="project" value="LOCAL" />
-      <updated>1713579501791</updated>
+      <updated>1713236526193</updated>
     </task>
-    <task id="LOCAL-00065" summary="# 객체의 타입캐스팅">
+    <task id="LOCAL-00012" summary="# 회원관리 시스템 - 회원 개별 조회 처리">
       <option name="closed" value="true" />
-      <created>1713579510361</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
+      <created>1713253997490</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
       <option name="project" value="LOCAL" />
-      <updated>1713579510361</updated>
+      <updated>1713253997490</updated>
     </task>
-    <task id="LOCAL-00066" summary="# 도서관리 프로그램 1">
+    <task id="LOCAL-00013" summary="# 회원관리 시스템 - 회원정보 객체 설계">
       <option name="closed" value="true" />
-      <created>1713579522347</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
+      <created>1713254075484</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
       <option name="project" value="LOCAL" />
-      <updated>1713579522347</updated>
+      <updated>1713254075484</updated>
     </task>
-    <task id="LOCAL-00067" summary="# final, 상수">
+    <task id="LOCAL-00014" summary="# 회원관리 시스템 - 회원 개별 조회 처리">
       <option name="closed" value="true" />
-      <created>1713579532745</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
+      <created>1713254094319</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
       <option name="project" value="LOCAL" />
-      <updated>1713579532745</updated>
+      <updated>1713254094319</updated>
     </task>
-    <task id="LOCAL-00068" summary="# 회원관리 시스템 - 복구 기능 추가">
+    <task id="LOCAL-00015" summary="# 회원관리 시스템 - 회원 수정, 삭제">
       <option name="closed" value="true" />
-      <created>1713579540202</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
+      <created>1713254116583</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
       <option name="project" value="LOCAL" />
-      <updated>1713579540202</updated>
+      <updated>1713254116583</updated>
     </task>
-    <task id="LOCAL-00069" summary="# final, 상수">
+    <task id="LOCAL-00016" summary="# 회원관리 시스템 - 코드 리팩토링 배열의 리스트화">
       <option name="closed" value="true" />
-      <created>1713579545850</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
+      <created>1713254141634</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
       <option name="project" value="LOCAL" />
-      <updated>1713579545851</updated>
+      <updated>1713254141634</updated>
     </task>
-    <task id="LOCAL-00070" summary="# 도서관리 프로그램 1">
+    <task id="LOCAL-00017" summary="# final, 상수">
       <option name="closed" value="true" />
-      <created>1713579552513</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
+      <created>1713433775722</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
       <option name="project" value="LOCAL" />
-      <updated>1713579552513</updated>
+      <updated>1713433775722</updated>
     </task>
-    <task id="LOCAL-00071" summary="# final, 상수">
+    <task id="LOCAL-00018" summary="# static, singleton">
       <option name="closed" value="true" />
-      <created>1713579559146</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
+      <created>1713433798953</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
       <option name="project" value="LOCAL" />
-      <updated>1713579559146</updated>
+      <updated>1713433798953</updated>
     </task>
-    <task id="LOCAL-00072" summary="# 객체의 타입캐스팅">
+    <task id="LOCAL-00019" summary="# super. static">
       <option name="closed" value="true" />
-      <created>1713579588001</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
+      <created>1713433814924</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
       <option name="project" value="LOCAL" />
-      <updated>1713579588001</updated>
+      <updated>1713433814924</updated>
     </task>
-    <task id="LOCAL-00073" summary="# 다형성 기초">
+    <task id="LOCAL-00020" summary="# super, static">
       <option name="closed" value="true" />
-      <created>1713579597978</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
+      <created>1713433922286</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
       <option name="project" value="LOCAL" />
-      <updated>1713579597978</updated>
+      <updated>1713433922286</updated>
     </task>
-    <task id="LOCAL-00074" summary="# 다형성 기초">
+    <task id="LOCAL-00021" summary="# final, 상수">
       <option name="closed" value="true" />
-      <created>1713579607668</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
+      <created>1713433936048</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
       <option name="project" value="LOCAL" />
-      <updated>1713579607668</updated>
+      <updated>1713433936048</updated>
     </task>
-    <task id="LOCAL-00075" summary="# static, singleton">
+    <task id="LOCAL-00022" summary="# final, 상수">
       <option name="closed" value="true" />
-      <created>1713579623921</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
+      <created>1713433996203</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
       <option name="project" value="LOCAL" />
-      <updated>1713579623921</updated>
+      <updated>1713433996203</updated>
     </task>
-    <task id="LOCAL-00076" summary="# final, 상수">
+    <task id="LOCAL-00023" summary="# super, static">
       <option name="closed" value="true" />
-      <created>1713579630704</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
+      <created>1713434014506</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
       <option name="project" value="LOCAL" />
-      <updated>1713579630704</updated>
+      <updated>1713434014506</updated>
     </task>
-    <task id="LOCAL-00077" summary="# super, static">
+    <task id="LOCAL-00024" summary="# 열거형">
       <option name="closed" value="true" />
-      <created>1713579639713</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
+      <created>1713434031818</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
       <option name="project" value="LOCAL" />
-      <updated>1713579639713</updated>
+      <updated>1713434031818</updated>
     </task>
-    <task id="LOCAL-00078" summary="# super, static">
+    <task id="LOCAL-00025" summary="# 열거형">
       <option name="closed" value="true" />
-      <created>1713579647826</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
+      <created>1713434040557</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
       <option name="project" value="LOCAL" />
-      <updated>1713579647826</updated>
+      <updated>1713434040557</updated>
     </task>
-    <task id="LOCAL-00079" summary="# 객체의 타입캐스팅">
+    <task id="LOCAL-00026" summary="# final, 상수">
       <option name="closed" value="true" />
-      <created>1713579663209</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
+      <created>1713434061211</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
       <option name="project" value="LOCAL" />
-      <updated>1713579663209</updated>
+      <updated>1713434061211</updated>
     </task>
-    <task id="LOCAL-00080" summary="# 열거형">
+    <task id="LOCAL-00027" summary="# 열거형">
       <option name="closed" value="true" />
-      <created>1713579674705</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
+      <created>1713434077904</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
       <option name="project" value="LOCAL" />
-      <updated>1713579674705</updated>
+      <updated>1713434077904</updated>
     </task>
-    <task id="LOCAL-00081" summary="# 객체의 타입캐스팅">
+    <task id="LOCAL-00028" summary="# super, static">
       <option name="closed" value="true" />
-      <created>1713579692859</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
+      <created>1713434096565</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
       <option name="project" value="LOCAL" />
-      <updated>1713579692860</updated>
+      <updated>1713434096565</updated>
     </task>
-    <task id="LOCAL-00082" summary="# final, 상수">
+    <task id="LOCAL-00029" summary="# static, singleton">
       <option name="closed" value="true" />
-      <created>1713579710937</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
+      <created>1713434117937</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
       <option name="project" value="LOCAL" />
-      <updated>1713579710937</updated>
+      <updated>1713434117937</updated>
     </task>
-    <task id="LOCAL-00083" summary="# super, static">
+    <task id="LOCAL-00030" summary="# final, 상수">
       <option name="closed" value="true" />
-      <created>1713579722917</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
+      <created>1713434140792</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
       <option name="project" value="LOCAL" />
-      <updated>1713579722917</updated>
+      <updated>1713434140792</updated>
     </task>
-    <task id="LOCAL-00084" summary="# 도서관리 프로그램 1">
+    <task id="LOCAL-00031" summary="# final, 상수">
       <option name="closed" value="true" />
-      <created>1713579737106</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
+      <created>1713434150298</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
       <option name="project" value="LOCAL" />
-      <updated>1713579737106</updated>
+      <updated>1713434150298</updated>
     </task>
-    <task id="LOCAL-00085" summary="# 도서관리 프로그램 1">
+    <task id="LOCAL-00032" summary="# static, singleton">
       <option name="closed" value="true" />
-      <created>1713579751107</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
+      <created>1713434175374</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
       <option name="project" value="LOCAL" />
-      <updated>1713579751107</updated>
+      <updated>1713434175374</updated>
     </task>
-    <task id="LOCAL-00086" summary="# static, singleton">
+    <task id="LOCAL-00033" summary="# super, static">
       <option name="closed" value="true" />
-      <created>1713579759102</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
+      <created>1713434185268</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
       <option name="project" value="LOCAL" />
-      <updated>1713579759102</updated>
+      <updated>1713434185268</updated>
     </task>
-    <task id="LOCAL-00087" summary="# 객체의 타입캐스팅">
+    <task id="LOCAL-00034" summary="# final, 상수">
       <option name="closed" value="true" />
-      <created>1713579773443</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
+      <created>1713434198531</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
       <option name="project" value="LOCAL" />
-      <updated>1713579773443</updated>
+      <updated>1713434198531</updated>
     </task>
-    <task id="LOCAL-00088" summary="# final, 상수">
+    <task id="LOCAL-00035" summary="# final, 상수">
       <option name="closed" value="true" />
-      <created>1713579787343</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
+      <created>1713434205119</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
       <option name="project" value="LOCAL" />
-      <updated>1713579787343</updated>
+      <updated>1713434205119</updated>
     </task>
-    <task id="LOCAL-00089" summary="# final, 상수">
+    <task id="LOCAL-00036" summary="# 회원관리 시스템 - 복구 기능 추가">
       <option name="closed" value="true" />
-      <created>1713579797753</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
+      <created>1713434216827</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
       <option name="project" value="LOCAL" />
-      <updated>1713579797753</updated>
+      <updated>1713434216827</updated>
     </task>
-    <task id="LOCAL-00090" summary="# 열거형">
+    <task id="LOCAL-00037" summary="# final, 상수">
       <option name="closed" value="true" />
-      <created>1713579815668</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
+      <created>1713434227032</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
       <option name="project" value="LOCAL" />
-      <updated>1713579815668</updated>
+      <updated>1713434227032</updated>
     </task>
-    <task id="LOCAL-00091" summary="# 도서관리 프로그램 1">
+    <task id="LOCAL-00038" summary="# 회원관리 시스템 - 복구 기능 추가">
       <option name="closed" value="true" />
-      <created>1713579827483</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
+      <created>1713434241460</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
       <option name="project" value="LOCAL" />
-      <updated>1713579827483</updated>
+      <updated>1713434241460</updated>
     </task>
-    <task id="LOCAL-00092" summary="# 다형성 기초">
+    <task id="LOCAL-00039" summary="# final, 상수">
       <option name="closed" value="true" />
-      <created>1713579842555</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
+      <created>1713434253432</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
       <option name="project" value="LOCAL" />
-      <updated>1713579842555</updated>
+      <updated>1713434253432</updated>
     </task>
-    <task id="LOCAL-00093" summary="# 열거형">
+    <task id="LOCAL-00040" summary="# final, 상수">
       <option name="closed" value="true" />
-      <created>1713579863162</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
+      <created>1713434271035</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
       <option name="project" value="LOCAL" />
-      <updated>1713579863162</updated>
+      <updated>1713434271035</updated>
     </task>
-    <task id="LOCAL-00094" summary="# 열거형">
+    <task id="LOCAL-00041" summary="# super, static">
       <option name="closed" value="true" />
-      <created>1713579867783</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
+      <created>1713434282536</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
       <option name="project" value="LOCAL" />
-      <updated>1713579867783</updated>
+      <updated>1713434282536</updated>
     </task>
-    <task id="LOCAL-00095" summary="# 접근제한자, 캡슐화, 정보은닉">
+    <task id="LOCAL-00042" summary="# super, static">
       <option name="closed" value="true" />
-      <created>1713579879231</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
+      <created>1713434289193</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
       <option name="project" value="LOCAL" />
-      <updated>1713579879231</updated>
+      <updated>1713434289193</updated>
     </task>
-    <task id="LOCAL-00096" summary="# 상속 기초">
+    <task id="LOCAL-00043" summary="# static, singleton">
       <option name="closed" value="true" />
-      <created>1713579890334</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
+      <created>1713434307512</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
       <option name="project" value="LOCAL" />
-      <updated>1713579890334</updated>
+      <updated>1713434307512</updated>
     </task>
-    <task id="LOCAL-00097" summary="# 열거형">
+    <task id="LOCAL-00044" summary="# 열거형">
       <option name="closed" value="true" />
-      <created>1713579906208</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
+      <created>1713434319734</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
       <option name="project" value="LOCAL" />
-      <updated>1713579906208</updated>
+      <updated>1713434319734</updated>
     </task>
-    <task id="LOCAL-00098" summary="# final, 상수">
+    <task id="LOCAL-00045" summary="# 열거형">
       <option name="closed" value="true" />
-      <created>1713579917141</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
+      <created>1713434325142</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
       <option name="project" value="LOCAL" />
-      <updated>1713579917141</updated>
+      <updated>1713434325142</updated>
     </task>
-    <task id="LOCAL-00099" summary="# final, 상수">
+    <task id="LOCAL-00046" summary="# final, 상수">
       <option name="closed" value="true" />
-      <created>1713579928454</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
+      <created>1713434337764</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
       <option name="project" value="LOCAL" />
-      <updated>1713579928454</updated>
+      <updated>1713434337764</updated>
     </task>
-    <task id="LOCAL-00100" summary="# 객체의 타입캐스팅">
+    <task id="LOCAL-00047" summary="# super, static">
       <option name="closed" value="true" />
-      <created>1713579940396</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
+      <created>1713434354110</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
       <option name="project" value="LOCAL" />
-      <updated>1713579940396</updated>
+      <updated>1713434354110</updated>
     </task>
-    <task id="LOCAL-00101" summary="# 회원관리 시스템 - 회원정보 객체 설계">
+    <task id="LOCAL-00048" summary="# static, singleton">
       <option name="closed" value="true" />
-      <created>1713579958173</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
+      <created>1713434371180</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
       <option name="project" value="LOCAL" />
-      <updated>1713579958173</updated>
+      <updated>1713434371180</updated>
     </task>
-    <task id="LOCAL-00102" summary="# 접근제한자, 캡슐화, 정보은닉">
+    <task id="LOCAL-00049" summary="# final, 상수">
       <option name="closed" value="true" />
-      <created>1713592834276</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
+      <created>1713434386374</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
       <option name="project" value="LOCAL" />
-      <updated>1713592834277</updated>
+      <updated>1713434386374</updated>
     </task>
-    <task id="LOCAL-00103" summary="# 접근제한자, 캡슐화, 정보은닉">
+    <task id="LOCAL-00050" summary="# final, 상수">
       <option name="closed" value="true" />
-      <created>1713593238696</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
+      <created>1713434395823</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
       <option name="project" value="LOCAL" />
-      <updated>1713593238696</updated>
+      <updated>1713434395823</updated>
     </task>
-    <task id="LOCAL-00104" summary="# 접근제한자, 캡슐화, 정보은닉">
+    <task id="LOCAL-00051" summary="# 열거형">
       <option name="closed" value="true" />
-      <created>1713593686313</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
+      <created>1713434408856</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
       <option name="project" value="LOCAL" />
-      <updated>1713593686314</updated>
+      <updated>1713434408856</updated>
     </task>
-    <task id="LOCAL-00105" summary="# 접근제한자, 캡슐화, 정보은닉">
+    <task id="LOCAL-00052" summary="# 열거형">
       <option name="closed" value="true" />
-      <created>1713594146490</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
+      <created>1713434414015</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
       <option name="project" value="LOCAL" />
-      <updated>1713594146490</updated>
+      <updated>1713434414015</updated>
     </task>
-    <task id="LOCAL-00106" summary="# 접근제한자, 캡슐화, 정보은닉">
+    <task id="LOCAL-00053" summary="# 회원관리 시스템 - 회원 개별 조회 처리">
       <option name="closed" value="true" />
-      <created>1713594485427</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
+      <created>1713434429978</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
       <option name="project" value="LOCAL" />
-      <updated>1713594485427</updated>
+      <updated>1713434429978</updated>
     </task>
-    <task id="LOCAL-00107" summary="# 접근제한자, 캡슐화, 정보은닉">
+    <task id="LOCAL-00054" summary="# 열거형">
       <option name="closed" value="true" />
-      <created>1713596504627</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
+      <created>1713434443912</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
       <option name="project" value="LOCAL" />
-      <updated>1713596504627</updated>
+      <updated>1713434443912</updated>
     </task>
-    <task id="LOCAL-00108" summary="# 접근제한자, 캡슐화, 정보은닉">
+    <task id="LOCAL-00055" summary="# 열거형">
       <option name="closed" value="true" />
-      <created>1713596737109</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
+      <created>1713434457281</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
       <option name="project" value="LOCAL" />
-      <updated>1713596737109</updated>
+      <updated>1713434457281</updated>
     </task>
-    <task id="LOCAL-00109" summary="# 접근제한자, 캡슐화, 정보은닉">
+    <task id="LOCAL-00056" summary="# final, 상수">
       <option name="closed" value="true" />
-      <created>1713596876270</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
+      <created>1713434476873</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
       <option name="project" value="LOCAL" />
-      <updated>1713596876270</updated>
+      <updated>1713434476874</updated>
     </task>
-    <task id="LOCAL-00110" summary="# 접근제한자, 캡슐화, 정보은닉">
+    <task id="LOCAL-00057" summary="# final, 상수">
       <option name="closed" value="true" />
-      <created>1713596959051</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
+      <created>1713434487812</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
       <option name="project" value="LOCAL" />
-      <updated>1713596959052</updated>
+      <updated>1713434487812</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -565,25 +668,23 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="test commit" />
     <MESSAGE value="?" />
+    <MESSAGE value="# 데이터 타입" />
     <MESSAGE value="# 배열 기초" />
     <MESSAGE value="# 배열 ." />
     <MESSAGE value="# 배열과 메서드" />
     <MESSAGE value="# 패키지" />
-    <MESSAGE value="# 데이터 타입" />
-    <MESSAGE value="&#9;&#10;# 다형성 기초" />
-    <MESSAGE value="# 도서관리 프로그램 2" />
-    <MESSAGE value="# 회원관리 시스템 - 회원 정보 생성, 전체 조회 처리" />
+    <MESSAGE value="# this" />
+    <MESSAGE value="# 회원 관리 시스템" />
+    <MESSAGE value="# 회원관리 시스템 - 회원정보 객체 설계" />
+    <MESSAGE value="# 회원관리 시스템 - 회원 수정, 삭제" />
+    <MESSAGE value="# 회원관리 시스템 - 코드 리팩토링 배열의 리스트화" />
+    <MESSAGE value="# super. static" />
     <MESSAGE value="# 회원관리 시스템 - 복구 기능 추가" />
     <MESSAGE value="# super, static" />
     <MESSAGE value="# static, singleton" />
-    <MESSAGE value="# 도서관리 프로그램 1" />
-    <MESSAGE value="# 다형성 기초" />
-    <MESSAGE value="# 상속 기초" />
+    <MESSAGE value="# 회원관리 시스템 - 회원 개별 조회 처리" />
     <MESSAGE value="# 열거형" />
     <MESSAGE value="# final, 상수" />
-    <MESSAGE value="# 객체의 타입캐스팅" />
-    <MESSAGE value="# 회원관리 시스템 - 회원정보 객체 설계" />
-    <MESSAGE value="# 접근제한자, 캡슐화, 정보은닉" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 접근제한자, 캡슐화, 정보은닉" />
+    <option name="LAST_COMMIT_MESSAGE" value="# final, 상수" />
   </component>
 </project>

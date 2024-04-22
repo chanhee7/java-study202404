@@ -36,6 +36,7 @@ public class Main {
         drive.drive(sonata3);
         drive.drive(new Mustang());
 
-
+        Sonata sonata = new Sonata();
+        sonata.accelerate();
     }
 }
