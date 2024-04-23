@@ -126,13 +126,18 @@ public class LibraryView {
         }
     }
 
-
     // 4. 책 대여하기
     private void rentBook() {
         displayAllBooks();
         String bookNum = input("- 대여할 도서 번호 입력: ");
+
         // 저장소에다가 대여가능한지 여부 검증
-        RentStatus status = repository.rentBook(Integer.parseInt(bookNum));
+        RentStatus status = null;
+        try {
+            status = repository.rentBook(Integer.parseInt(bookNum));
+        } catch (NumberFormatException e) {
+            System.out.println("\n# 1~6 사이의 숫자로 입력해주세요.");
+        }
 
         if (status == RentStatus.RENT_SUCCESS_WITH_COUPON) {
             System.out.println("# 성공적으로 요리책이 쿠폰발급과 함께 대여되었습니다.");
