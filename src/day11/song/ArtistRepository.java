@@ -41,10 +41,9 @@ public class ArtistRepository {
     }
 
     /**
-     * 가수 이름으로 map에서 해당 가수 정보를 꺼내와서
-     * 그 가수 정보 안에 있는 노래리스트를 반환
-     * @param singerName
-     * @return
+     *  등록된 가수의 노래리스트를 반환하는 메서드
+     * @param singerName - 가수 이름으로 map 에서 해당 가수 정보를 꺼내와서
+     * @return - 그 가수 정보 안에 있는 노래리스트를 반환
      */
     public Set<String> getSongList(String singerName) {
 
