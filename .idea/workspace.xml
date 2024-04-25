@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="797174d0-79ec-4aa3-bbc1-1d6329fb33bf" name="Changes" comment="# 도서관리 프로그램 나이 입력 검증">
-      <change afterPath="$PROJECT_DIR$/src/day11/collection/list/ListExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day11/collection/map/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day11/collection/map/MapExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day11/collection/set/SetExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day11/generic/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day11/generic/AppleBasket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day11/generic/Banana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day11/generic/BananaBasket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day11/generic/Basket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day11/generic/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day11/generic/Peach.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day11/api/time/DateTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day11/api/time/DateTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day12/stream/quiz2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day12/stream/quiz2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +55,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/day01/RandomExample.java" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
@@ -80,67 +72,69 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/js-study202403&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/develop/java-study202404/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDK&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;,
-    &quot;애플리케이션.ArrayBasic.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ArrayCopy.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ArrayDelete.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ArrayInsert.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ArrayPop.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ArrayPush.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ArrayQuiz01.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ArrayQuiz03.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ArraySearch.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.BubbleSort.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.DancerMain.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.DataType.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Dd.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.DogMain.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.FieldMain.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.InsertionSort.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ListMain.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Matrix.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.MethodBasic.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.MethodQuiz.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.PackageMain.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.RandomExample.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Recursive.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Run.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ScannerPractice.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.SelectionSort.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.StringCompare.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Test.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.TryExample1.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.TryExample2.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.TypeCasting.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Variable.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.day05.player.Main.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.day06.member.Main.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.day08.enum_.Main.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.day08.enum_.quiz1.Main.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.day08.final_.quiz1.Main.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.day08.gisa.Main.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.day08.quiz2.Main.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.day08.singleton.Main.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.day08.static_.Main.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.day08.super_.Main.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.day10.exception.Main.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.day10.inter.practice.Main.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.day10.practice.Main.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.stdIO.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/java-study202404",
+    "onboarding.tips.debug.path": "D:/develop/java-study202404/src/Main.java",
+    "project.structure.last.edited": "SDK",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
+    "애플리케이션.ArrayBasic.executor": "Run",
+    "애플리케이션.ArrayCopy.executor": "Run",
+    "애플리케이션.ArrayDelete.executor": "Run",
+    "애플리케이션.ArrayInsert.executor": "Run",
+    "애플리케이션.ArrayPop.executor": "Run",
+    "애플리케이션.ArrayPush.executor": "Run",
+    "애플리케이션.ArrayQuiz01.executor": "Run",
+    "애플리케이션.ArrayQuiz03.executor": "Run",
+    "애플리케이션.ArraySearch.executor": "Run",
+    "애플리케이션.BubbleSort.executor": "Run",
+    "애플리케이션.DancerMain.executor": "Run",
+    "애플리케이션.DataType.executor": "Run",
+    "애플리케이션.Dd.executor": "Run",
+    "애플리케이션.DogMain.executor": "Run",
+    "애플리케이션.FieldMain.executor": "Run",
+    "애플리케이션.InsertionSort.executor": "Run",
+    "애플리케이션.ListMain.executor": "Run",
+    "애플리케이션.Main.executor": "Run",
+    "애플리케이션.Matrix.executor": "Run",
+    "애플리케이션.MethodBasic.executor": "Run",
+    "애플리케이션.MethodQuiz.executor": "Run",
+    "애플리케이션.PackageMain.executor": "Run",
+    "애플리케이션.RandomExample.executor": "Run",
+    "애플리케이션.Recursive.executor": "Run",
+    "애플리케이션.Run.executor": "Run",
+    "애플리케이션.ScannerPractice.executor": "Run",
+    "애플리케이션.SelectionSort.executor": "Run",
+    "애플리케이션.StringCompare.executor": "Run",
+    "애플리케이션.Test.executor": "Run",
+    "애플리케이션.TryExample1.executor": "Run",
+    "애플리케이션.TryExample2.executor": "Run",
+    "애플리케이션.TypeCasting.executor": "Run",
+    "애플리케이션.Variable.executor": "Run",
+    "애플리케이션.day05.player.Main.executor": "Run",
+    "애플리케이션.day06.member.Main.executor": "Run",
+    "애플리케이션.day08.enum_.Main.executor": "Run",
+    "애플리케이션.day08.enum_.quiz1.Main.executor": "Run",
+    "애플리케이션.day08.final_.quiz1.Main.executor": "Run",
+    "애플리케이션.day08.gisa.Main.executor": "Run",
+    "애플리케이션.day08.quiz2.Main.executor": "Run",
+    "애플리케이션.day08.singleton.Main.executor": "Run",
+    "애플리케이션.day08.static_.Main.executor": "Run",
+    "애플리케이션.day08.super_.Main.executor": "Run",
+    "애플리케이션.day10.exception.Main.executor": "Run",
+    "애플리케이션.day10.inter.practice.Main.executor": "Run",
+    "애플리케이션.day10.practice.Main.executor": "Run",
+    "애플리케이션.day12.stream.quiz2.Main.executor": "Run",
+    "애플리케이션.stdIO.executor": "Run"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="day08.quiz2" />
@@ -155,7 +149,7 @@
       <recent name="D:\develop\java-study202404\src\day08\final_\quiz1" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.DancerMain">
+  <component name="RunManager">
     <configuration name="DancerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day04.DancerMain" />
       <module name="java-study202404" />
@@ -224,6 +218,13 @@
         <item itemvalue="애플리케이션.day06.member.Main" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-11.0.22-corretto-11.0.22-4caba194b151-868cef46" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
